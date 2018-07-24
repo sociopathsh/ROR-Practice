@@ -9,3 +9,8 @@
 <p>
   <%= @article.description %>
 </p>
+
+<p>
+  <%= link_to 'Edit', edit_article_path(@article) %> |
+  <%= link_to 'All Articles', articles_path(@article) %>
+</p>
