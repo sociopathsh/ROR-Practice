@@ -1,5 +1,9 @@
-<% flash.each do |name,msg| %>
-  <li>
-    <%= msg %>
-  </li>
-<% end %>
+<div class="row justify-content-center">
+  <div class="col-8">
+    <% flash.each do |name,msg| %>
+      <p class="alert alert-success">
+        <%= msg %>
+      </p>
+    <% end %>
+  </div>
+</div>
