@@ -43,6 +43,23 @@
   font-weight: bold;
 }
 
+#article .jumbotron {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#article .article-actions {
+  border-top: 1px solid #cacaca;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+#article .article-actions .btn-xs {
+  padding: 3px 5px;
+}
+
+
+
 .footer {
   margin-top: 45px;
   padding-top: 5px;
