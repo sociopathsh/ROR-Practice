@@ -1,24 +1,12 @@
-# README
+* How to use
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+    - in Gemfile
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+            gem 'will_paginate', '3.1.6'
+    
+            gem 'bootstrap-will_paginate', '1.0.0'
+        
+    - $ bundle install
+    
+        
+    
